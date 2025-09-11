@@ -5,7 +5,6 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the project using Maven...'
-                echo 'This is a new print message for checking...'
             }
         }
 
